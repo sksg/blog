@@ -1,0 +1,5 @@
+baseURL = 'https://sksg.github.io/orsum-lang/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-mini'
+publishdir = './docs'
