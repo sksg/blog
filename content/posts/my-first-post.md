@@ -6,4 +6,4 @@ draft: false
 
 # My first post
 
-testing my first post
+testing my first automatic build of blog
