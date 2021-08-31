@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "paperesque"
 
+[params]
+
 [[params.menu]]
   name = "blog"
   url = "posts/"
