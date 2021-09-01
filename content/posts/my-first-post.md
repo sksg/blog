@@ -1,10 +1,10 @@
----
-title: "My First Post"
-date: 2021-08-22
-draft: false
-description: "test"
-Tags: ["test"]
----
++++
+title = "My First Post"
+date = 2021-08-22
+draft = false
+description = "test"
+tags = ["test"]
++++
 
 # My first post
 
