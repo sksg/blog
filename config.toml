@@ -1,9 +1,16 @@
 baseURL = 'https://sksg.github.io/orsum-lang/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Journal, notes, and blog"
 theme = 'paperesque'
 
-[[params.menu]]
-  name = "blog"
+[taxonomies]
+  subject = 'subjects'
+
+[[params.topmenu]]
+  name = "all posts"
   url = "posts/"
+
+[[params.topmenu]]
+  name = "all subjects"
+  url = "subjects/"
 
