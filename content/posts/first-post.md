@@ -1,7 +1,7 @@
 +++
 date = 2021-08-22
 draft = true
-subjects = ["Blog", "General"]
+subjects = ["Blog"]
 +++
 
 # First post in blog
@@ -11,3 +11,4 @@ Welcome to my first post, *ever*. I wanted to take the opportunity to tell a lit
 # What is this blog about?
 
 Throughout the years of working with numerical and analytical analysis tools, developing simulation programs and designing one-off software for research purposes, I have come to enjoy thinking about software and software design.
+
