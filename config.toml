@@ -7,10 +7,10 @@ theme = 'paperesque'
   subject = 'subjects'
 
 [[params.topmenu]]
-  name = "all posts"
+  name = "see all posts"
   url = "posts/"
 
 [[params.topmenu]]
-  name = "all subjects"
+  name = "choose subject"
   url = "subjects/"
 

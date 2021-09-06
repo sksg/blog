@@ -4,8 +4,6 @@
   prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
 >
   <head>
-    <meta charset="utf-8" />
-
     {{ partial "meta.html" . }}
 
     <title>{{ .Title }}{{ if ne $.Site.Title .Title }} || {{ $.Site.Title }}{{ end }}</title>
@@ -20,8 +18,6 @@
     {{ end }}
 
     {{ partial "head_includes.html" . }}
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   </head>
   <body
   class="{{ block "body-classes" . }}{{ end }}"
@@ -35,7 +31,7 @@
   {{ block "content" . }}{{ end }}
   {{ block "footer" .}}{{ end }}
   
-  <article id="main" class="content-container look-sheet article-pad-v">
+  <section id="about" class="content-container article-pad-v">
     <div id="content" class="article-body margin-top-2em">
     {{with .GetPage "/about"}}
       {{ .Content }}

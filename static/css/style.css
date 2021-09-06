@@ -331,6 +331,13 @@ a.btn-dashed:hover {
   margin-bottom: 1em;
 }
 
+.post-body {
+  color: black;
+}
+.post-title-draft {
+  color: rgb(235, 48, 23);
+  font-size: 1.5em;
+}
 .list-of-titles .post-title {
   color: black;
   font-size: 1.5em;
