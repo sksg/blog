@@ -7,9 +7,9 @@ Let me start this first post by explaining a little about what to expect in this
 
 # The ∨∑ (orsum) new toy language
 
-I am not a professional programmer. In fact, I have never finished any significant piece of software outside of small, closed, academic circles. I have, however, written loads of code and one-off analysis software within mathematics, physics, and computer vision. I have come to enjoy trying out a new programming languages, just to see if they were more suited to various tasks.
+I am not a professional programmer. In fact, I have never finished any significant piece of software outside of small, closed, academic circles. I am a physicist. And I have written loads of one-off analysis software within mathematics, physics, and computer vision. I like programming. I enjoy trying new programming languages, just to see if they are more suited for various tasks. And until a few years ago, I never imagined that I could make one myself.
 
-Some years ago I stumbled onto one of Jon Blows presentations about Jai[^BlowVideos]: A Programming Language for Games. It occurred to me then; building your own language may not be an impossible task. And so begins my journey towards my own programming language.
+Then I stumbled onto one of Jon Blows presentations about Jai[^BlowVideos]: A Programming Language for Games. It occurred to me: building your own language may not be an impossible task. And so begins my journey towards my own programming language.
 
 [^BlowVideos]: Blow, Jonathan, 2014, A Programming Language for Games, accessed 06 September 2021, https://www.youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO
 
