@@ -14,3 +14,9 @@ theme = 'paperesque'
   name = "choose subject"
   url = "subjects/"
 
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = true
+    style = 'swapoff'
+    tabWidth = 4
