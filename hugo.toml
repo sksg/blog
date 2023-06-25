@@ -1,4 +1,4 @@
-baseURL = 'https://sksg.github.io/blog/'
+baseURL = 'https://sksg.github.io/blog'
 languageCode = 'en-us'
 title = "Journal, notes, and blog"
 theme = 'paperesque'
