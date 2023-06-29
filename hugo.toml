@@ -1,18 +1,36 @@
 baseURL = 'https://sksg.github.io/blog'
 languageCode = 'en-us'
-title = "Journal, notes, and blog"
-theme = 'paperesque'
+title = 'Sørens blog'
+
+theme = "gruvhugo"
+
+defaultExtension = "html"
+metaDataFormat = "toml"
+
 
 [taxonomies]
-  subject = 'subjects'
+  tag      = "tags"
 
-[[params.topmenu]]
-  name = "see all posts"
-  url = "posts/"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about"
 
-[[params.topmenu]]
-  name = "choose subject"
-  url = "subjects/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "post/"
+
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "tags/"
+
+[params.main]
+  enabled = true
+  headerTitle = "Sørens blog"
+  description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Quis risus sed vulputate odio ut. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Bibendum at varius vel pharetra vel turpis. Semper viverra nam libero justo laoreet sit amet cursus. Mauris a diam maecenas sed enim ut sem."
 
 [markup]
   [markup.highlight]
@@ -20,3 +38,16 @@ theme = 'paperesque'
     lineNumbersInTable = true
     style = 'swapoff'
     tabWidth = 4
+
+[params.giscus]
+  enable = false
+  repo = "sksg/blog"
+  repoID = "398866935"
+  category = "Comments"
+  categoryID = "33342699"
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  lang = "en"
+  loading = "lazy"
